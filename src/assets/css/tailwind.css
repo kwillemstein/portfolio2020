@@ -1,0 +1,79 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "./common-styles.css";
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap");
+
+/* Common Styles */
+body {
+    @apply font-normal text-base bg-gray-200;
+}
+::-moz-selection {
+    @apply bg-orange-400 text-white;
+}
+
+::selection {
+    @apply bg-orange-400 text-white;
+}
+
+/* - Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-semibold text-gray-900;
+}
+
+h1 {
+    @apply text-4xl;
+}
+h2 {
+    @apply text-3xl;
+}
+h3 {
+    @apply text-2xl;
+}
+h4 {
+    @apply text-xl;
+}
+h5 {
+    @apply text-lg;
+}
+h6 {
+    @apply text-lg;
+}
+p {
+    @apply text-lg;
+}
+
+h1.title {
+    @apply text-5xl font-bold leading-tight mb-4;
+    color: #3d3e45;
+}
+
+.intro {
+    @apply text-gray-700;
+}
+
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+.text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.text-shadow-none {
+    text-shadow: none;
+}
