@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <div id="section" v-scroll-reveal.reset>
+    <div id="section" class="px-5 md:px-0" v-scroll-reveal.reset>
       <div class="container mx-auto">
-        <div class="flex hero">
+        <div class="flex flex-col sm:flex-row hero">
           <div class="w-full text-shadow-md">
             <span class="label">introduction</span>
             <vue-typed-js
@@ -22,10 +22,10 @@
               </h1>
             </vue-typed-js>
             <h1 class="title" style="margin-top: -10px;">based in Utrecht.</h1>
-            <p class="intro w-2/3">
+            <p class="intro w-full sm:w-2/3">
               Maecenas semper velit vitae urna pharetra tristique. Aliquam in
-              ultrices purus, sit amet ultricies massa. Integer eget mauris
-              non purus rutrum ultrices.
+              ultrices purus, sit amet ultricies massa. Integer eget mauris non
+              purus rutrum ultrices.
             </p>
             <div class="intro-wrapper">
               <button
@@ -35,7 +35,7 @@
               </button>
             </div>
           </div>
-          <div class="w-2/3 social text-shadow-md text-right">
+          <div class="w-full pt-4 md:pt-0 md:w-2/3 social text-shadow-md text-left md:text-right">
             <button href="mailto:kimwillemstein@live.nl" class="email relative">
               Get in touch!
             </button>
@@ -45,19 +45,18 @@
     </div>
 
     <div id="section" v-scroll-reveal.reset>
-      <div class="usp">
+      <div class="usp pt-32 md:pt-40 pb-56">
         <div class="container mx-auto">
-          <div class="flex mb-4">
-            <div class="w-1/2">
+          <div class="flex mb-0 md:mb-4 px-5 md:px-0 flex-col md:flex-row">
+            <div class="w-full md:w-1/2">
               <h1 class="title">
-                sit amet ultricies massa
+                I'm looking for a job!
               </h1>
             </div>
-            <div class="w-1/2">
+            <div class="w-full md:w-1/2">
               <p class="intro">
-                Maecenas semper velit vitae urna pharetra tristique. Aliquam in
-                ultrices purus, sit amet ultricies massa. Integer eget mauris
-                non purus rutrum ultrices.
+                I'm looking for a job where I can learn more about front-end so
+                I can become a front-end pro!
               </p>
             </div>
           </div>
@@ -65,10 +64,10 @@
       </div>
     </div>
 
-    <div id="section" v-scroll-reveal.reset>
+    <div id="section" class="px-5 md:px-0" v-scroll-reveal.reset>
       <div class="specials container mx-auto pb-20">
-        <div class="specializing flex mb-4 -mx-2">
-          <div class="flex-1 m-2 flex flex-col dev">
+        <div class="specializing flex flex-col md:flex-row mb-4 md:-mx-2">
+          <div class="w-full md:w-1/3 mb-2 md:m-2 flex flex-col dev">
             <h4>Creative Front-End Development</h4>
             <p class="intro mt-4">
               I have a good understanding of HTML and Modern CSS (including
@@ -79,7 +78,7 @@
               learn more.
             </p>
           </div>
-          <div class="flex-1 m-2 uxd">
+          <div class="w-full md:w-1/3 mb-2 md:m-2 uxd">
             <h4>User Experience design</h4>
             <p class="intro mt-4">
               A designer should always have the users in mind to make useful,
@@ -91,7 +90,7 @@
               contrast, inclusive design and WCAG guidelines.
             </p>
           </div>
-          <div class="flex-1 m-2 vis">
+          <div class="w-full md:w-1/3 mb-2 md:m-2 vis">
             <h4>Visual design</h4>
             <p class="intro mt-4">
               I enjoy creating logo's, branding, designs and illustration.
@@ -105,77 +104,77 @@
       </div>
     </div>
 
-    <div id="section" v-scroll-reveal.reset>
+    <div id="section" class="px-5 md:px-0" v-scroll-reveal.reset>
       <div class="container mx-auto pb-20">
-        <div class="flex mb-4 tools">
-          <div class="flex-1 px-4 py-2 m-2">
-            <img src="./assets/html5.svg" />
+        <div class="tools flex mb-4 flex-wrap">
+          <div class="flex-1 w-1/4 px-4 py-2 m-2">
+            <img src="./assets/html5.svg"/>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div class="w-1/4 md:flex-1 px-4 py-2 m-2">
             <img src="./assets/css3.svg" />
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div class="w-1/4 md:flex-1 px-4 py-2 m-2">
             <img src="./assets/jetbrains.svg" width="100px" />
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div class="w-1/4 md:flex-1 px-4 py-2 m-2">
             <img src="./assets/gitkraken.svg" />
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div class="w-1/4 md:flex-1 px-4 py-2 m-2">
             <img src="./assets/github.svg" />
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div class="w-1/4 md:flex-1 px-4 py-2 m-2">
             <img src="./assets/adobe.svg" />
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div class="w-1/4 md:flex-1 px-4 py-2 m-2">
             <img src="./assets/figma.svg" />
           </div>
         </div>
       </div>
     </div>
 
-<!--    <div id="section">-->
-<!--      <div class="container mx-auto pb-20">-->
-<!--        <div class="flex mb-4">-->
-<!--          <div class="w-full text-center mb-8">-->
-<!--            <h1 class="title">-->
-<!--              MY WORK-->
-<!--            </h1>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="flex w-full -mx-2">-->
-<!--          <div class="work flex flex-wrap w-1/2 mb-4 p-2 -mx-2">-->
-<!--            <h2 class="title w-full text-center mb-4">Explorations</h2>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/700/1200" />-->
-<!--            </div>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/800/1300" />-->
-<!--            </div>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/700/1200" />-->
-<!--            </div>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/800/1300" />-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="work flex flex-wrap w-1/2 mb-4 p-2 -mx-2">-->
-<!--            <h2 class="title w-full text-center mb-4">Professional work</h2>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/700/1200" />-->
-<!--            </div>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/800/1300" />-->
-<!--            </div>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/700/1200" />-->
-<!--            </div>-->
-<!--            <div class="work-item w-1/2 p-2">-->
-<!--              <img src="https://picsum.photos/800/1300" />-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
+    <!--    <div id="section">-->
+    <!--      <div class="container mx-auto pb-20">-->
+    <!--        <div class="flex mb-4">-->
+    <!--          <div class="w-full text-center mb-8">-->
+    <!--            <h1 class="title">-->
+    <!--              MY WORK-->
+    <!--            </h1>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--        <div class="flex w-full -mx-2">-->
+    <!--          <div class="work flex flex-wrap w-1/2 mb-4 p-2 -mx-2">-->
+    <!--            <h2 class="title w-full text-center mb-4">Explorations</h2>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/700/1200" />-->
+    <!--            </div>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/800/1300" />-->
+    <!--            </div>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/700/1200" />-->
+    <!--            </div>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/800/1300" />-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--          <div class="work flex flex-wrap w-1/2 mb-4 p-2 -mx-2">-->
+    <!--            <h2 class="title w-full text-center mb-4">Professional work</h2>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/700/1200" />-->
+    <!--            </div>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/800/1300" />-->
+    <!--            </div>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/700/1200" />-->
+    <!--            </div>-->
+    <!--            <div class="work-item w-1/2 p-2">-->
+    <!--              <img src="https://picsum.photos/800/1300" />-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
   </div>
 </template>
 
@@ -254,7 +253,6 @@ $grid-gutter: 30px;
   }
   .social {
     color: #fff;
-    text-align: right;
   }
   .email {
     margin: -10px;
@@ -288,10 +286,7 @@ $grid-gutter: 30px;
 #section {
   .usp {
     border-bottom: 5px solid #17171c;
-    margin-top: -1px;
     background: #303138;
-    padding-top: 10rem;
-    padding-bottom: 15rem;
     .intro,
     .title {
       color: #ebedef;
