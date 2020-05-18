@@ -83,8 +83,8 @@
               I have a good understanding of HTML and Modern CSS (including
               preprocessors compass and webpack, CSS grid and Flexbox),
               responsive layouts and accessibility. I often work with Bootstrap
-              and I'm currently learning Tailwind CSS. I've finished the Basic
-              Javascript course on freecodecamp.org and I'm eager to learn more.
+              and I'm currently learning Tailwind CSS. I've finished the 'Basic
+              Javascript' course on freecodecamp.org and I'm eager to learn more.
             </p>
           </div>
           <div class="w-full md:w-1/3 mb-2 md:m-2 flex flex-col rounded-lg">
