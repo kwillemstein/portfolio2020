@@ -21,24 +21,22 @@
               </h1>
             </vue-typed-js>
             <h1 class="title" style="margin-top: -10px;">based in Utrecht.</h1>
-            <p class="intro w-full text-2xl sm:w-2/3">
+            <p class="intro w-full mb-10 text-2xl sm:w-2/3">
               I’m Kim, a twenty-seven-year-old designer and developer just
               graduated at Hogeschool Utrecht. I’m really into user-experience,
               design and front-end development.
             </p>
-            <div class="intro-wrapper">
-              <a
-                class="bg-transparent hover:bg-white text-white transition ease-in-out duration-200 font-semibold py-4 px-6 mt-4 border border-white hover:border-transparent hover:text-orange-500"
-                href="/KimWillemstein_CV.pdf"
-                rel="nofollow"
-                target="_blank"
-              >
-                DOWNLOAD CV
-              </a>
-            </div>
+            <a
+              class="bg-transparent hover:bg-white text-white transition ease-in-out duration-200 font-semibold py-4 px-6 mt-4 border border-white hover:border-transparent hover:text-orange-500"
+              href="/KimWillemstein_CV.pdf"
+              rel="nofollow"
+              target="_blank"
+            >
+              DOWNLOAD CV
+            </a>
           </div>
           <div
-            class="w-full pt-4 md:pt-0 md:w-2/3 social text-shadow-md text-left md:text-right"
+            class="w-full pt-10 md:pt-0 md:w-2/3 social text-shadow-md text-left md:text-right"
           >
             <button
               href="mailto:kimwillemstein@live.nl"
