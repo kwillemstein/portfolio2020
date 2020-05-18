@@ -63,10 +63,10 @@
             </div>
             <div class="w-full md:w-1/2">
               <p class="intro font-bold">
-                I live in Utrecht Overvecht. In my spare time
-                I enjoy being creative, playing games, catching up with friends
-                and listening to music. I often visit concerts and festivals and
-                I love traveling.
+                I live in Utrecht Overvecht. In my spare time I enjoy being
+                creative, playing games, catching up with friends and listening
+                to music. I often visit concerts and festivals and I love
+                traveling.
               </p>
             </div>
           </div>
@@ -84,7 +84,8 @@
               preprocessors compass and webpack, CSS grid and Flexbox),
               responsive layouts and accessibility. I often work with Bootstrap
               and I'm currently learning Tailwind CSS. I've finished the 'Basic
-              Javascript' course on freecodecamp.org and I'm eager to learn more.
+              Javascript' course on freecodecamp.org and I'm eager to learn
+              more.
             </p>
           </div>
           <div class="w-full md:w-1/3 mb-2 md:m-2 flex flex-col rounded-lg">
@@ -288,8 +289,11 @@ $grid-gutter: 30px;
 }
 
 .hero {
-  height: 600px;
+  height: 800px;
   padding: $grid-gutter * 2 0;
+  @media (min-width: 1024px) {
+    height: 600px;
+  }
   &:before {
     content: "";
     position: absolute;
@@ -323,7 +327,6 @@ $grid-gutter: 30px;
   .intro-wrapper {
     position: absolute;
     bottom: $grid-gutter * 2;
-    width: 33%;
   }
   .social {
     color: #fff;
