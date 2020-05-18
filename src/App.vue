@@ -22,9 +22,9 @@
             </vue-typed-js>
             <h1 class="title" style="margin-top: -10px;">based in Utrecht.</h1>
             <p class="intro w-full text-2xl sm:w-2/3">
-              Maecenas semper velit vitae urna pharetra tristique. Aliquam in
-              ultrices purus, sit amet ultricies massa. Integer eget mauris non
-              purus rutrum ultrices.
+              I’m Kim, a twenty-seven-year-old designer and developer just
+              graduated at Hogeschool Utrecht. I’m really into user-experience,
+              design and front-end development.
             </p>
             <div class="intro-wrapper">
               <a
@@ -63,7 +63,10 @@
             </div>
             <div class="w-full md:w-1/2">
               <p class="intro font-bold">
-                Lorem ipsum dolor sit amet.
+                I live in Utrecht Overvecht. In my spare time
+                I enjoy being creative, playing games, catching up with friends
+                and listening to music. I often visit concerts and festivals and
+                I love traveling.
               </p>
             </div>
           </div>
