@@ -1,10 +1,17 @@
 <template>
   <div class="modal-wrapper">
+    <button
+      @click="$modal.hide('hello-world')"
+      class="text-center w-full mb-8 font-black border-2 p-2"
+    >
+      Close project
+    </button>
+    <h2 class="title">Lottie animations</h2>
     <p class="intro">
       Lottie is a mobile library for Android and iOS that parses Adobe After
       Effects animations exported as json and renders them natively on
       mobile!<br />
-      The lottie animation below were made for learning purposes.
+      The lottie animation below were made for educational purposes.
     </p>
     <div class="lottie-section  py-8 flex justify-center text-center mx-0">
       <lottie-player
