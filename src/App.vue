@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="section px-5 md:px-0" v-scroll-reveal>
+    <div class="section section-hero px-5 md:px-0" v-scroll-reveal>
       <div class="container mx-auto">
         <div class="flex flex-col sm:flex-row hero">
           <div class="w-full text-shadow-md">
@@ -288,6 +288,14 @@ $grid-gutter: 30px;
   @apply bg-white;
 }
 
+.section-hero {
+  background-image: url("./assets/photo.jpg");
+  background-size: cover;
+  background-position: center center;
+  @media (min-width: 1024px) {
+    background-image: none;
+  }
+}
 .hero {
   height: 800px;
   padding: $grid-gutter * 2 0;
@@ -302,9 +310,11 @@ $grid-gutter: 30px;
     height: 100%;
     width: 100%;
     z-index: -2;
-    background-image: url("./assets/photo.jpg");
-    background-size: cover;
-    background-position: center center;
+    @media (min-width: 1024px) {
+      background-image: url("./assets/photo.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
   }
   &:after {
     content: "";
@@ -318,6 +328,9 @@ $grid-gutter: 30px;
     background: -moz-linear-gradient(left, #fd6f82 0%, #feb75d 100%);
     background: -webkit-linear-gradient(left, #fd6f82 0%, #feb75d 100%);
     background: linear-gradient(to right, #fd6f82 0%, #feb75d 100%);
+    background: -webkit-gradient(
+      linear-gradient(to right, #fd6f82 0%, #feb75d 100%)
+    );
   }
 
   h1,
